@@ -1,0 +1,80 @@
+/* Reseteo de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+  }
+/* Cuerpo y fondo*/
+body {
+    background: url('images/DALL·E\ 2024-12-05\ 16.48.28\ -\ A\ breathtaking\,\ epic\ snowy\ mountain\ range\ under\ a\ clear\ blue\ sky.\ The\ scene\ features\ towering\ peaks\ covered\ in\ pristine\ white\ snow\,\ with\ sunlight\ cast.webp') 
+                no-repeat center top;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+  
+  /* Estilo general para la calculadora */
+  .calculator {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  /* Estilo de la pantalla de resultados */
+  .display {
+    background: #222;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+    padding: 20px;
+    height: 60px;
+  }
+  
+  /* Botones */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .btn {
+    font-size: 1.2rem;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: background 0.3s;
+    min-width: 0;
+    max-width: 100%;
+    text-align: center; /* Asegura que el texto esté centrado */
+    display: flex; /* Habilita el modelo flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+
+  .btnF {
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+  }
+  
+  /* Estilo al pasar el ratón sobre los botones */
+  .btn:hover {
+    background: #e0e0e0;
+  }
+  
+  .equal {
+
+    background: #4caf50;
+    color: white;
+  }
+  
+  .equal:hover {
+    background: #45a049;
+  }
+  
+  
